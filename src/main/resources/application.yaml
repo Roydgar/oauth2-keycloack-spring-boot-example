@@ -1,0 +1,9 @@
+server:
+  port: 8090
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: "http://localhost:8080/auth/realms/security_training/protocol/openid-connect/certs"
